@@ -31,6 +31,20 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.font-a {
+    color: white;
+    font-family: 'Open sans', sans-serif;
+    font-size: 2.5rem;
+    margin: 2rem;
+    margin-left: 4rem;
+    margin-right: 0 !important;
+    font-style: italic;
+}
+.font-aa {
+    color: aliceblue;
+    font-weight: bold;
+
+}
     </style>
     <!-- Tablet Css -->
     <style>
@@ -49,7 +63,7 @@
     
     <header class="bg-container">
         <div class="bg-color container">
-            <h3>MUYUKO</h3>
+            <h3 class="font-a"><span class="font-a font-aa">MUYUKO'nun</span> Dünyası</h3>
             <nav class="navbar">
                 {% if konu %}
                     {% for i in konu %}
